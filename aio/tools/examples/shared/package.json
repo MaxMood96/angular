@@ -41,7 +41,7 @@
     "angular-route": "1.8.0",
     "core-js": "^2.5.4",
     "express": "^4.15.2",
-    "rxjs": "~6.6.0",
+    "rxjs": "~7.2.0",
     "systemjs": "0.19.39",
     "tslib": "^2.0.0",
     "zone.js": "~0.11.4"
