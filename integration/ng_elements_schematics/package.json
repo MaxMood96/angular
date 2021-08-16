@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "license": "MIT",
   "devDependencies": {
-    "@angular/cli": "file:../../node_modules/@angular/cli",
+    "@angular/cli": "9.1.13",
     "@types/node": "file:../../node_modules/@types/node",
     "@types/shelljs": "0.8.6",
     "shelljs": "0.8.3",
@@ -12,6 +12,12 @@
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "build-dist": "node ../../scripts/build/build-packages-dist.js && yarn install --check-files",
-    "test": "yarn build && node test.js"
+    "test": "yarn build && node test.js",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
+  },
+  "snyk": true,
+  "dependencies": {
+    "@snyk/protect": "latest"
   }
 }
