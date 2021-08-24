@@ -12,15 +12,16 @@
     "rxjs": "file:../../node_modules/rxjs",
     "typescript": "file:../../node_modules/typescript",
     "tslib": "file:../../node_modules/tslib",
-    "zone.js": "file:../../dist/zone.js-dist/archive/zone.js.tgz"
+    "zone.js": "file:../../dist/zone.js-dist/archive/zone.js.tgz",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "@types/jasmine": "file:../../node_modules/@types/jasmine",
     "@types/jasminewd2": "file:../../node_modules/@types/jasminewd2",
     "concurrently": "3.4.0",
     "google-closure-compiler": "file:../../node_modules/google-closure-compiler",
-    "lite-server": "2.2.2",
-    "protractor": "file:../../node_modules/protractor",
+    "lite-server": "2.6.0",
+    "protractor": "6.0.0",
     "puppeteer": "file:../../node_modules/puppeteer",
     "tsickle": "file:../../node_modules/tsickle"
   },
@@ -33,7 +34,10 @@
     "test": "ngc && yarn run closure && concurrently \"yarn run serve\" \"yarn run protractor\" --kill-others --success first",
     "serve": "lite-server -c e2e/browser.config.json",
     "preprotractor": "tsc -p e2e",
-    "protractor": "protractor e2e/protractor.config.js"
+    "protractor": "protractor e2e/protractor.config.js",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
-  "private": true
+  "private": true,
+  "snyk": true
 }
