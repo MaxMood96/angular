@@ -8,7 +8,8 @@
   "fesm2015": "./fesm2015/zone.js",
   "typings": "./zone.d.ts",
   "dependencies": {
-    "tslib": "^2.1.0"
+    "tslib": "^2.1.0",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "@externs/nodejs": "^1.5.0",
@@ -27,7 +28,9 @@
     "jest:test": "jest --config ./test/jest/jest.config.js ./test/jest/jest.spec.js",
     "jest:nodetest": "jest --config ./test/jest/jest.node.config.js ./test/jest/jest.spec.js",
     "promisetest": "tsc -p . && node ./test/promise/promise-test.js",
-    "promisefinallytest": "tsc -p . && mocha ./test/promise/promise.finally.spec.js"
+    "promisefinallytest": "tsc -p . && mocha ./test/promise/promise.finally.spec.js",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -41,5 +44,6 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/angular/angular/issues"
-  }
+  },
+  "snyk": true
 }
