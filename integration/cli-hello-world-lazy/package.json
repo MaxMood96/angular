@@ -23,8 +23,8 @@
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "file:../../node_modules/@angular-devkit/build-angular",
-    "@angular/cli": "file:../../node_modules/@angular/cli",
-    "@angular/compiler-cli": "file:../../dist/packages-dist/compiler-cli",
+    "@angular/cli": "9.1.0",
+    "@angular/compiler-cli": "9.1.0",
     "@angular/language-service": "file:../../dist/packages-dist/language-service",
     "@types/node": "file:../../node_modules/@types/node",
     "@types/jasmine": "file:../../node_modules/@types/jasmine",
