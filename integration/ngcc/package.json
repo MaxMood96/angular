@@ -7,7 +7,7 @@
     "@angular/cdk": "9.0.0-rc.4",
     "@angular/common": "file:../../dist/packages-dist/common",
     "@angular/compiler": "file:../../dist/packages-dist/compiler",
-    "@angular/compiler-cli": "file:../../dist/packages-dist/compiler-cli",
+    "@angular/compiler-cli": "9.1.0",
     "@angular/core": "file:../../dist/packages-dist/core",
     "@angular/forms": "file:../../dist/packages-dist/forms",
     "@angular/material": "9.0.0-rc.4",
@@ -24,7 +24,7 @@
     "@types/jasmine": "file:../../node_modules/@types/jasmine",
     "concurrently": "3.4.0",
     "lite-server": "2.2.2",
-    "protractor": "file:../../node_modules/protractor"
+    "protractor": "6.0.0"
   },
   "//resolutions-comment": "Ensure a single version of webdriver-manager which comes from root node_modules that has already run webdriver-manager update",
   "resolutions": {
