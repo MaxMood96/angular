@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "license": "MIT",
   "devDependencies": {
-    "@angular/cli": "file:../../node_modules/@angular/cli",
+    "@angular/cli": "9.1.0",
     "@types/node": "file:../../node_modules/@types/node",
     "@types/shelljs": "0.8.6",
     "shelljs": "0.8.3",
