@@ -26,9 +26,9 @@
     "zone.js": "file:../../dist/zone.js-dist/archive/zone.js.tgz"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "file:../../node_modules/@angular-devkit/build-angular",
-    "@angular/cli": "file:../../node_modules/@angular/cli",
-    "@angular/compiler-cli": "file:../../dist/packages-dist/compiler-cli",
+    "@angular-devkit/build-angular": "0.1102.11",
+    "@angular/cli": "11.0.0",
+    "@angular/compiler-cli": "11.0.0",
     "@types/jasmine": "file:../../node_modules/@types/jasmine",
     "@types/node": "file:../../node_modules/@types/node",
     "codelyzer": "6.0.1",
@@ -39,7 +39,7 @@
     "karma-coverage": "2.0.3",
     "karma-jasmine": "4.0.1",
     "karma-jasmine-html-reporter": "1.5.4",
-    "protractor": "file:../../node_modules/protractor",
+    "protractor": "6.0.0",
     "puppeteer": "file:../../node_modules/puppeteer",
     "ts-node": "8.3.0",
     "tslint": "6.1.3",
