@@ -178,7 +178,7 @@
     "cldrjs": "0.5.5",
     "cli-progress": "^3.7.0",
     "conventional-changelog": "^3.1.24",
-    "conventional-commits-parser": "^3.2.1",
+    "conventional-commits-parser": "^3.2.3",
     "ejs": "^3.1.6",
     "firebase-tools": "^9.0.0",
     "git-raw-commits": "^2.0.10",
