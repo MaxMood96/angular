@@ -5,7 +5,7 @@
   "dependencies": {
     "@angular/common": "file:../../dist/packages-dist/common",
     "@angular/compiler": "file:../../dist/packages-dist/compiler",
-    "@angular/compiler-cli": "file:../../dist/packages-dist/compiler-cli",
+    "@angular/compiler-cli": "10.0.0",
     "@angular/core": "file:../../dist/packages-dist/core",
     "@angular/localize": "file:../../dist/packages-dist/localize",
     "@angular/platform-browser": "file:../../dist/packages-dist/platform-browser",
@@ -23,7 +23,7 @@
     "concurrently": "3.4.0",
     "google-closure-compiler": "file:../../node_modules/google-closure-compiler",
     "lite-server": "2.2.2",
-    "protractor": "file:../../node_modules/protractor",
+    "protractor": "6.0.0",
     "puppeteer": "file:../../node_modules/puppeteer",
     "rollup": "file:../../node_modules/rollup",
     "tsickle": "file:../../node_modules/tsickle"
