@@ -26,9 +26,9 @@
     "zone.js": "file:../../dist/zone.js-dist/archive/zone.js.tgz"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "file:../../node_modules/@angular-devkit/build-angular",
-    "@angular/cli": "file:../../node_modules/@angular/cli",
-    "@angular/compiler-cli": "file:../../dist/packages-dist/compiler-cli",
+    "@angular-devkit/build-angular": "0.1102.11",
+    "@angular/cli": "9.1.0",
+    "@angular/compiler-cli": "9.1.0",
     "@angular/language-service": "file:../../dist/packages-dist/language-service",
     "@types/jasmine": "file:../../node_modules/@types/jasmine",
     "@types/jasminewd2": "file:../../node_modules/@types/jasminewd2",
@@ -41,7 +41,7 @@
     "karma-coverage-istanbul-reporter": "2.1.0",
     "karma-jasmine": "2.0.1",
     "karma-jasmine-html-reporter": "1.4.2",
-    "protractor": "file:../../node_modules/protractor",
+    "protractor": "6.0.0",
     "puppeteer": "file:../../node_modules/puppeteer",
     "ts-node": "8.3.0",
     "tslint": "5.18.0",
