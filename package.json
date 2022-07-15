@@ -163,7 +163,7 @@
     "sourcemap-codec": "^1.4.8",
     "start-server-and-test": "^1.10.11",
     "systemjs": "0.18.10",
-    "terser": "^5.8.0",
+    "terser": "^5.14.2",
     "tmp": "0.2.1",
     "todomvc-app-css": "^2.3.0",
     "todomvc-common": "^1.0.5",
