@@ -1,5 +1,5 @@
 # Image metadata and config
-FROM debian:bullseye
+FROM debian:11.5
 
 LABEL name="angular.io PR preview" \
       description="This image implements the PR preview functionality for angular.io." \
