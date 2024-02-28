@@ -164,7 +164,7 @@
     "start-server-and-test": "^1.10.11",
     "systemjs": "0.18.10",
     "terser": "^5.8.0",
-    "tmp": "0.2.1",
+    "tmp": "0.2.2",
     "todomvc-app-css": "^2.3.0",
     "todomvc-common": "^1.0.5",
     "tsickle": "0.38.1",
