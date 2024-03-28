@@ -12,7 +12,8 @@
     "rxjs": "file:../../node_modules/rxjs",
     "typescript": "file:../../node_modules/typescript",
     "tslib": "file:../../node_modules/tslib",
-    "zone.js": "file:../../dist/zone.js-dist/archive/zone.js.tgz"
+    "zone.js": "file:../../dist/zone.js-dist/archive/zone.js.tgz",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "@babel/core": "file:../../node_modules/@babel/core",
@@ -33,7 +34,10 @@
     "test": "yarn build && concurrently \"yarn run serve\" \"yarn run protractor\" --kill-others --success first",
     "serve": "lite-server -c e2e/browser.config.json",
     "preprotractor": "tsc -p e2e",
-    "protractor": "protractor e2e/protractor.config.js"
+    "protractor": "protractor e2e/protractor.config.js",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
-  "private": true
+  "private": true,
+  "snyk": true
 }
