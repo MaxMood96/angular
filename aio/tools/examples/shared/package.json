@@ -27,7 +27,7 @@
     "@angular/core": "~13.3.0",
     "@angular/elements": "~13.3.0",
     "@angular/forms": "~13.3.0",
-    "@angular/localize": "~13.3.0",
+    "@angular/localize": "~16.0.6",
     "@angular/platform-browser": "~13.3.0",
     "@angular/platform-browser-dynamic": "~13.3.0",
     "@angular/platform-server": "~13.3.0",
@@ -47,8 +47,8 @@
     "zone.js": "~0.11.4"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "~13.3.0",
-    "@angular/cli": "~13.3.0",
+    "@angular-devkit/build-angular": "~15.0.0",
+    "@angular/cli": "~17.0.0",
     "@angular/compiler-cli": "~13.3.0",
     "@nguniversal/builders": "~13.1.0",
     "@rollup/plugin-commonjs": "^21.0.3",
