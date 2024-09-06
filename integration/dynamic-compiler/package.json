@@ -15,13 +15,13 @@
   "license": "MIT",
   "devDependencies": {
     "@angular/compiler-cli": "file:../../dist/packages-dist/compiler-cli",
-    "@babel/core": "file:../../node_modules/@babel/core",
+    "@babel/core": "7.23.2",
     "@rollup/plugin-babel": "file:../../node_modules/@rollup/plugin-babel",
-    "@rollup/plugin-node-resolve": "file:../../node_modules/@rollup/plugin-node-resolve",
+    "@rollup/plugin-node-resolve": "15.0.0",
     "@types/jasmine": "file:../../node_modules/@types/jasmine",
     "@types/jasminewd2": "file:../../node_modules/@types/jasminewd2",
-    "concurrently": "3.4.0",
-    "lite-server": "2.2.2",
+    "concurrently": "6.0.2",
+    "lite-server": "2.6.0",
     "protractor": "file:../../node_modules/protractor",
     "rollup": "file:../../node_modules/rollup",
     "typescript": "file:../../node_modules/typescript"
