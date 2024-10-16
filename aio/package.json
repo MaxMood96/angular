@@ -112,7 +112,7 @@
     "@angular-eslint/eslint-plugin-template": "^13.0.0",
     "@angular-eslint/template-parser": "^13.0.0",
     "@angular/cli": "13.3.0",
-    "@angular/compiler-cli": "13.3.0",
+    "@angular/compiler-cli": "18.2.8",
     "@bazel/bazelisk": "^1.7.5",
     "@types/jasmine": "~3.10.0",
     "@types/lunr": "^2.3.3",
