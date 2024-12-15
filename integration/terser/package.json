@@ -8,9 +8,9 @@
   "dependencies": {
     "@angular/core": "file:../../dist/packages-dist/core",
     "@angular/compiler": "file:../../dist/packages-dist/compiler",
-    "@angular/compiler-cli": "file:../../dist/packages-dist/compiler-cli",
+    "@angular/compiler-cli": "18.2.8",
     "rxjs": "file:../../node_modules/rxjs",
-    "terser": "file:../../node_modules/terser",
+    "terser": "5.14.2",
     "typescript": "file:../../node_modules/typescript",
     "zone.js": "file:../../dist/zone.js-dist/archive/zone.js.tgz"
   }
