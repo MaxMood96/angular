@@ -43,7 +43,7 @@
   },
   "// 1": "dependencies are used locally and by bazel",
   "dependencies": {
-    "@angular-devkit/build-angular": "13.3.0",
+    "@angular-devkit/build-angular": "19.1.0",
     "@angular-devkit/build-optimizer": "0.1302.1",
     "@angular-devkit/core": "13.3.0",
     "@angular-devkit/schematics": "13.3.0",
@@ -161,7 +161,7 @@
     "source-map": "^0.6.1",
     "source-map-support": "0.5.21",
     "sourcemap-codec": "^1.4.8",
-    "start-server-and-test": "^1.10.11",
+    "start-server-and-test": "^2.0.10",
     "systemjs": "0.18.10",
     "terser": "^5.8.0",
     "tmp": "0.2.1",
