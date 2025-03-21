@@ -20,7 +20,7 @@
     "@rollup/plugin-node-resolve": "file:../../node_modules/@rollup/plugin-node-resolve",
     "@types/jasmine": "file:../../node_modules/@types/jasmine",
     "@types/jasminewd2": "file:../../node_modules/@types/jasminewd2",
-    "concurrently": "3.4.0",
+    "concurrently": "6.0.0",
     "google-closure-compiler": "file:../../node_modules/google-closure-compiler",
     "lite-server": "2.2.2",
     "protractor": "file:../../node_modules/protractor",
