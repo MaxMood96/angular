@@ -10,7 +10,9 @@
     "preprotractor": "tsc -p e2e",
     "protractor": "protractor e2e/protractor.config.js",
     "serve": "lite-server -c e2e/browser.config.json",
-    "test": "yarn build && concurrently \"yarn run serve\" \"yarn run protractor\" --kill-others --success first"
+    "test": "yarn build && concurrently \"yarn run serve\" \"yarn run protractor\" --kill-others --success first",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "license": "MIT",
   "devDependencies": {
@@ -36,6 +38,8 @@
     "@angular/platform-server": "file:../../dist/packages-dist/platform-server",
     "core-js": "file:../../node_modules/core-js",
     "rxjs": "file:../../node_modules/rxjs",
-    "zone.js": "file:../../dist/zone.js-dist/archive/zone.js.tgz"
-  }
+    "zone.js": "file:../../dist/zone.js-dist/archive/zone.js.tgz",
+    "@snyk/protect": "latest"
+  },
+  "snyk": true
 }
