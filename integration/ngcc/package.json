@@ -5,7 +5,7 @@
   "dependencies": {
     "@angular/animations": "file:../../node_modules/@angular/animations-12",
     "@angular/cdk": "9.0.0-rc.4",
-    "@angular/common": "file:../../node_modules/@angular/common-12",
+    "@angular/common": "19.2.16",
     "@angular/compiler": "file:../../dist/packages-dist/compiler",
     "@angular/compiler-cli": "file:../../dist/packages-dist/compiler-cli",
     "@angular/core": "file:../../node_modules/@angular/core-12",
